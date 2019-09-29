@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.10.1",
+    "react-chartist": "^0.13.3",
     "react-dom": "^16.10.1",
     "react-scripts": "3.1.2"
   },
