@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   const [userData, setUserData] = useState([]);
-  const [userName, setUserName] = useState("rurru"); 
+  const [userName, setUserName] = useState("sjt1988"); 
   
 
 const getUserData = async () => {
@@ -21,7 +21,7 @@ const getUserData = async () => {
 setUserData(result.data);
 }
 
-function HandleSearch(e)
+const HandleSearch = (e) =>
 {
   setUserName(e.value);
      console.log (":-P"); 
